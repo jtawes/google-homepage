@@ -133,3 +133,38 @@ input {
     margin-bottom: 1rem;
     padding-left: 1rem;
 }
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones */
+    #about, #store, #gmail, #images, .circle-grid {
+        display: none;
+    }
+
+    .wrapper {
+        width: 100vw;
+    }
+
+    #signin {
+        margin: 1rem 1.5rem 0 auto;
+    }
+
+    #logo-image {
+        width: 200px;
+    }
+
+    #search-box {
+        width: 250px;
+    }
+
+    input {
+        width: 190px;
+    }
+
+    #mic {
+        display: none;
+    }
+
+    .footer div {
+        font-size: x-small;
+    }
+}
